@@ -63,7 +63,7 @@ builder.Services.AddAuthentication(options =>
 
 // Services
 builder.Services.AddScoped<IJwtService, JwtService>();
-builder.Services.AddHttpClient<ITMDbService, TMDbService>();
+//builder.Services.AddHttpClient<ITMDbService, TMDbService>();
 
 builder.Services.AddControllersWithViews();
 
